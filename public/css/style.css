@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
+
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    background-color: rgba(29, 32, 37, 0.991);
+}
+
+.container{
+    background-color: aliceblue;
+    padding: 12px 22px;
+    min-width: 300px;
+    margin: 2em;
+    align-items: center;
+    border-radius: 2px;
+    border: 2px solid black;
+  
+}
+
+input{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: large;
+    padding: 5px 6px;
+    border-radius: 12px;
+    
+}
+
+.Button{
+   background-color: blanchedalmond;
+   border: 2px solid;
+}
+
+.header{
+    font-family: 'Lobster', cursive;;
+    font-size: x-large;
+   
+}
+
+label{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: medium;
+}
+

@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+
+.header{
+    padding: 5px 12px;
+    font-family: lobster, cursive;
+    color: white;
+    background-color:rgba(29, 32, 37, 0.991);
+    width: 100%;
+    position: fixed;
+  
+   
+   
+   
+}
+
+.inner-header{
+    display: flex;
+}
+h1{
+    width: 90%;
+    
+}
+
+
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+  
+
+}
+
+.main{
+    display: flex;
+    position:fixed;
+    top:92px;
+    width: 100%;
+    bottom: 107px;
+    margin: 0;
+    
+
+}
+
+.sideBar{
+    width: 30%;
+    height: 100%;
+    background-color: #484848;
+    color: white;
+    min-width: 150px;
+    
+
+}
+
+.chatBox{
+    width: 70%;
+    height:100%;
+    background-color: #767676;
+    overflow-y: auto;
+    min-width: 200px;
+  
+}
+
+.message{
+    background-color: white;
+    display: 100%;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    padding: 12px 24px;
+    border-radius: 12px;
+    overflow: hidden;
+    font-size: 20px;
+    height: auto;
+}
+
+.BottomBar{
+    
+    width: 100%;
+    height: 100px;
+    background-color:rgba(29, 32, 37, 0.991) ;
+    align-items: center;
+    padding-top: 5px;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+}
+
+form{
+    display: flex;
+    padding-right: 10px;
+
+}
+
+.TextBox{
+    
+    width: 90%;
+   
+    height:40px;
+    font-size: large;
+    padding: 5px 6px;
+}
+
+.Send{
+    height: 40px;
+    height: 40px;
+    
+    flex-grow: 1;
+}
+
+.LeaveButton{
+    width: fit-content;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+span{
+    color: rgb(95, 95, 235);
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width:300px) {
+    .message {
+      font-size: 14px;
+    }
+  }
+
+.users{
+    width:80%;
+    background-color: white;
+    color: black;
+    height: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    overflow-y: auto;
+}  
+
+.listItem{
+    color: rgb(12, 120, 2);
+}
+
+li{
+    width: 100%;
+}
+
