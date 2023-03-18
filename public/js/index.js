@@ -4,7 +4,7 @@ const { userName, userPassword } = Qs.parse(window.location.search, {
   
   
 console.log(userName,userPassword)
-const socket=io();
+const socket=io("http://localhost:3000");
 
 
 socket.emit("joinRoom", { userName, userPassword });
