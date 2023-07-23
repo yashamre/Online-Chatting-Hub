@@ -23,7 +23,7 @@ io.on('connection',socket =>{
 
       });
 
-    
+
 
     socket.on('disconnect',()=>{
         const id=socket.id;
@@ -31,7 +31,7 @@ io.on('connection',socket =>{
         users.splice(index, 1)
         console.log(users)
         socket.broadcast.emit("leave",users)
-    })  
+    })
 
     socket.on('chat-message',message=>{
 
@@ -40,15 +40,14 @@ io.on('connection',socket =>{
         });
         const username=currentUser.userName;
         console.log(currentUser.userName)
-        
+
         io.to(currentUser.userPassword).emit('message',{username,message})
     })
-     
-    
+
+
 })
 
 
 server.listen(3000 || process.env.PORT ,function(){
    console.log("server running...")
 });
-

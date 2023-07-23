@@ -13,13 +13,13 @@ body{
 }
 
 .container{
-    background-color: aliceblue;
+    background-color: lightgreen;
     padding: 12px 22px;
     min-width: 300px;
     margin: 2em;
     align-items: center;
-    border-radius: 2px;
-    border: 2px solid black;
+    border-radius: 25px;
+    border: 2px solid black
   
 }
 
